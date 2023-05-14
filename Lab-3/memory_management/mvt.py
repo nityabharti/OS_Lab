@@ -1,5 +1,4 @@
 
-
 # Defining a class to represent memory partitions
 class Partition:
     def __init__(self, start, end):
@@ -87,4 +86,3 @@ Enter following options:
 
         print("Current memory state: ")
         memory.display_memory()
-

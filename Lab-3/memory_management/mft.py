@@ -1,13 +1,11 @@
 
-
-partition_size = int(input("Enter the Partition Size: "))  # size of each partition
-
+partition_size = int(input("Enter the Partition Size: ")
+                     )  # size of each partition
 # number of partitions in memory
 num_partitions = int(input("Enter Number of partitions in memory: "))
 memory = [None] * num_partitions  # initialize memory
 
 # function to allocate memory for a process
-
 
 def allocate(process_name, num_partitions_needed):
     # check if there are enough free partitions
@@ -26,7 +24,6 @@ def allocate(process_name, num_partitions_needed):
     return start_index
 
 # function to deallocate memory for a process
-
 
 def deallocate(process_name):
     # find the partitions allocated to the process
